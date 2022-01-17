@@ -1,0 +1,27 @@
+{
+  "name": "klara",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ngtzzz/klara-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ngtzzz/klara-js/issues"
+  },
+  "homepage": "https://github.com/Ngtzzz/klara-js#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^13.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
