@@ -9,13 +9,13 @@ const client = new Client( {
 });
 
 client.once('ready', () => {
-    console.log('Klara is waking');
+    console.log('Klara đã dậy rồi thưa onii-chan!');
 });
 
 client.on('messageCreate', message => {
     if (message.content.startsWith('>')) {
         if (message.content.substring(1) === 'hello') {
-            message.reply('Xin chao');
+            message.reply('Klara chào onii-chan ạ!');
         }
     }
 });
