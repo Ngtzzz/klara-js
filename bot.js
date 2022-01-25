@@ -7,9 +7,17 @@ client.once('ready', () => {
     console.log('Klara đã dậy rồi thưa onii-chan!');
 });
 
+<<<<<<< HEAD
 client.on('interactionCreate', async interaction => {
 	if (!interaction.isCommand()) {
         return;
+=======
+client.on('messageCreate', message => {
+    if (message.content.startsWith('>')) {
+        if (message.content.substring(1) === 'hello') {
+            message.reply('Klara chào onii-chan ạ!');
+        }
+>>>>>>> c9c8ad799c5120845c3faa49375599db337dd62d
     }
 
 	const { commandName } = interaction;
